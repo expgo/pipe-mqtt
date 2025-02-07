@@ -7,7 +7,7 @@ require (
 	github.com/expgo/config v0.0.0-20250207104159-8ab422bd5ea1
 	github.com/expgo/factory v0.0.0-20250207104258-d86fd2f60f11
 	github.com/expgo/log v0.0.0-20250207104414-6051c6ef7394
-	github.com/expgo/log-pipe v0.0.0-20250207112942-e1725a6d3d23
+	github.com/expgo/log-pipe v0.0.0-20250207150632-4e153d85e0d3
 	github.com/expgo/serve v0.0.0-20250206035538-7e8f6126c92a
 	github.com/thejerf/suture/v4 v4.0.6
 )

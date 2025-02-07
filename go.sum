@@ -9,8 +9,8 @@ github.com/expgo/generic v0.0.0-20240814064603-ecd54aed10dc h1:cWcLO36Rqrc2yz7rE
 github.com/expgo/generic v0.0.0-20240814064603-ecd54aed10dc/go.mod h1:CJcVaS/IBmVseDjlvEk36L1A+QyuZ2f4URS2RNHWkqQ=
 github.com/expgo/log v0.0.0-20250207104414-6051c6ef7394 h1:QjKZkSBy7ZabrF8DZkMRqrF0ROBA2ahSgrVu2KtwrNQ=
 github.com/expgo/log v0.0.0-20250207104414-6051c6ef7394/go.mod h1:Um+CgYc0VV6Jbfd2HFMTSvMcxVIlHVbcgxchEgPP3F4=
-github.com/expgo/log-pipe v0.0.0-20250207112942-e1725a6d3d23 h1:GR9Ihj7KRk+xgQSn6Pzs81P4juL25Gs0RtN0xeci7SI=
-github.com/expgo/log-pipe v0.0.0-20250207112942-e1725a6d3d23/go.mod h1:xDLHpBIsiob0qBmHpbjp39N45kP6txVU2ExAt3Qwyo0=
+github.com/expgo/log-pipe v0.0.0-20250207150632-4e153d85e0d3 h1:G+oBDQhNiNWpi8+ZVA2NtJdbDGVJN2EBP+9oQyQSw0w=
+github.com/expgo/log-pipe v0.0.0-20250207150632-4e153d85e0d3/go.mod h1:xDLHpBIsiob0qBmHpbjp39N45kP6txVU2ExAt3Qwyo0=
 github.com/expgo/serve v0.0.0-20250206035538-7e8f6126c92a h1:RlvROUsEDRk/D9XoennVjcP2Zt6pXsqB9iuC3Qa1KFk=
 github.com/expgo/serve v0.0.0-20250206035538-7e8f6126c92a/go.mod h1:hGmK01jAUp1OoYinV5JFAQfdw52U9gzfx60yLtrAHmQ=
 github.com/expgo/structure v0.0.0-20250207102346-67febfcd842a h1:A5LEJm/Ee2AoTHqJuKPzm6TkkIi8b3SgjJYBzmfoq1o=
