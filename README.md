@@ -1,2 +1,2 @@
-# log-mqtt
-log-mqtt
+# pipe-mqtt
+pipe-mqtt

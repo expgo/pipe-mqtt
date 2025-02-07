@@ -1,0 +1,7 @@
+logging:
+  pipe:
+    encoder: json
+    mqtt:
+      url: "tcp://127.0.0.1:1883"
+      topic: "test"
+      clientid: "test"
