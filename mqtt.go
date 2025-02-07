@@ -149,17 +149,17 @@ func (m *MQTT) UpdateCacheSize(cacheSize int) {
 }
 
 func (m *MQTT) SetClient(client mqtt.Client) {
-	m.L.Debug("Setting new MQTT client")
+	m.L.Debug("Setting MQTT client")
 	if m.client != nil {
 		m.L.Debug("Disconnecting existing client")
 		m.client.Disconnect(250)
 	}
 
 	m.client = client
-	m.L.Info("New MQTT client set")
+	m.L.Info("MQTT client set")
 }
 
 func (m *MQTT) SetTopic(topic string) {
-	m.L.Infof("Setting new topic: %s", topic)
+	m.L.Infof("Setting topic: %s", topic)
 	m.cfg.Topic = topic
 }
