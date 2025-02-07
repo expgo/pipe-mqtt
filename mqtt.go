@@ -3,8 +3,9 @@ package pipemqtt
 import (
 	"context"
 	"errors"
-	"github.com/expgo/factory"
 	"time"
+
+	"github.com/expgo/factory"
 
 	mqtt "github.com/eclipse/paho.mqtt.golang"
 	"github.com/expgo/config"
@@ -68,6 +69,17 @@ func (m *MQTT) Serve(ctx context.Context) error {
 	}
 
 	for {
+		// Check topic length before select
+		topic := m.cfg.Topic
+		if len(topic) == 0 {
+			select {
+			case <-ctx.Done():
+				return ctx.Err()
+			case <-time.After(time.Millisecond * 50): // Wait for 1 second before checking again
+				continue
+			}
+		}
+
 		select {
 		case <-ctx.Done():
 			return ctx.Err()
@@ -75,11 +87,6 @@ func (m *MQTT) Serve(ctx context.Context) error {
 			if !ok {
 				// Channel has been closed
 				return errors.New("subscriber channel closed")
-			}
-
-			topic := m.cfg.Topic
-			if len(topic) == 0 {
-				continue
 			}
 
 			client := m.client
