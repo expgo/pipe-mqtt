@@ -9,8 +9,8 @@ github.com/expgo/generic v0.0.0-20240814064603-ecd54aed10dc h1:cWcLO36Rqrc2yz7rE
 github.com/expgo/generic v0.0.0-20240814064603-ecd54aed10dc/go.mod h1:CJcVaS/IBmVseDjlvEk36L1A+QyuZ2f4URS2RNHWkqQ=
 github.com/expgo/log v0.0.0-20250207104414-6051c6ef7394 h1:QjKZkSBy7ZabrF8DZkMRqrF0ROBA2ahSgrVu2KtwrNQ=
 github.com/expgo/log v0.0.0-20250207104414-6051c6ef7394/go.mod h1:Um+CgYc0VV6Jbfd2HFMTSvMcxVIlHVbcgxchEgPP3F4=
-github.com/expgo/log-pipe v0.0.0-20250207150632-4e153d85e0d3 h1:G+oBDQhNiNWpi8+ZVA2NtJdbDGVJN2EBP+9oQyQSw0w=
-github.com/expgo/log-pipe v0.0.0-20250207150632-4e153d85e0d3/go.mod h1:xDLHpBIsiob0qBmHpbjp39N45kP6txVU2ExAt3Qwyo0=
+github.com/expgo/log-pipe v0.0.0-20250212034813-b20005ec122e h1:W/lKy5no4jxXBZAupklpQ8uCW6dnfHXFnQvllblMNrY=
+github.com/expgo/log-pipe v0.0.0-20250212034813-b20005ec122e/go.mod h1:xDLHpBIsiob0qBmHpbjp39N45kP6txVU2ExAt3Qwyo0=
 github.com/expgo/serve v0.0.0-20250206035538-7e8f6126c92a h1:RlvROUsEDRk/D9XoennVjcP2Zt6pXsqB9iuC3Qa1KFk=
 github.com/expgo/serve v0.0.0-20250206035538-7e8f6126c92a/go.mod h1:hGmK01jAUp1OoYinV5JFAQfdw52U9gzfx60yLtrAHmQ=
 github.com/expgo/structure v0.0.0-20250207102346-67febfcd842a h1:A5LEJm/Ee2AoTHqJuKPzm6TkkIi8b3SgjJYBzmfoq1o=
@@ -24,8 +24,8 @@ github.com/gobwas/glob v0.2.3/go.mod h1:d3Ez4x06l9bZtSvzIay5+Yzi0fmZzPgnTbPcKjJA
 github.com/gorilla/websocket v1.5.3 h1:saDtZ6Pbx/0u+bgYQ3q96pZgCzfhKXGPqt7kZ72aNNg=
 github.com/gorilla/websocket v1.5.3/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
 github.com/petermattis/goid v0.0.0-20240813172612-4fcff4a6cae7/go.mod h1:pxMtw7cyUw6B2bRH0ZBANSPg+AoSud1I1iyJHI69jH4=
-github.com/petermattis/goid v0.0.0-20250121172306-05bcfb9a85dc h1:Xz/LkK9AJRY5QTkA1uE1faB8yeqRFjeKgwDtI13ogcY=
-github.com/petermattis/goid v0.0.0-20250121172306-05bcfb9a85dc/go.mod h1:pxMtw7cyUw6B2bRH0ZBANSPg+AoSud1I1iyJHI69jH4=
+github.com/petermattis/goid v0.0.0-20250211185408-f2b9d978cd7a h1:ckxP/kGzsxvxXo8jO6E/0QJ8MMmwI7IRj4Fys9QbAZA=
+github.com/petermattis/goid v0.0.0-20250211185408-f2b9d978cd7a/go.mod h1:pxMtw7cyUw6B2bRH0ZBANSPg+AoSud1I1iyJHI69jH4=
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 h1:Jamvg5psRIccs7FGNTlIRMkT8wgtp5eCXdBlqhYGL6U=
 github.com/sasha-s/go-deadlock v0.3.5 h1:tNCOEEDG6tBqrNDOX35j/7hL5FcFViG6awUGROb2NsU=
 github.com/sasha-s/go-deadlock v0.3.5/go.mod h1:bugP6EGbdGYObIlx7pUZtWqlvo8k9H6vCBBsiChJQ5U=
